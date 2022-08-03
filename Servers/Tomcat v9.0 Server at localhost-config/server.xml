@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="S01-ServletBasics" path="/S01-ServletBasics" reloadable="true" source="org.eclipse.jst.jee.server:S01-ServletBasics"/></Host>
+      <Context docBase="FirstServlet" path="/FirstServlet" reloadable="true" source="org.eclipse.jst.jee.server:FirstServlet"/><Context docBase="URLWriterDemo" path="/URLWriterDemo" reloadable="true" source="org.eclipse.jst.jee.server:URLWriterDemo"/><Context docBase="ServletConcept" path="/ServletConcept" reloadable="true" source="org.eclipse.jst.jee.server:ServletConcept"/><Context docBase="HTTPSessionDemo" path="/HTTPSessionDemo" reloadable="true" source="org.eclipse.jst.jee.server:HTTPSessionDemo"/><Context docBase="CookieTrackingDemo" path="/CookieTrackingDemo" reloadable="true" source="org.eclipse.jst.jee.server:CookieTrackingDemo"/><Context docBase="LoginLogout" path="/LoginLogout" reloadable="true" source="org.eclipse.jst.jee.server:LoginLogout"/><Context docBase="Servlet_GetPost" path="/Servlet_GetPost" reloadable="true" source="org.eclipse.jst.jee.server:Servlet_GetPost"/><Context docBase="ServletInterface" path="/ServletInterface" reloadable="true" source="org.eclipse.jst.jee.server:ServletInterface"/><Context docBase="FilterDemo" path="/FilterDemo" reloadable="true" source="org.eclipse.jst.jee.server:FilterDemo"/><Context docBase="FormFieldsTracking" path="/FormFieldsTracking" reloadable="true" source="org.eclipse.jst.jee.server:FormFieldsTracking"/></Host>
     </Engine>
   </Service>
 </Server>
