@@ -21,7 +21,7 @@ public class InterfaceDemo implements Servlet {
                PrintWriter pwriter=res.getWriter();
                pwriter.print("<html>");
                pwriter.print("<body>");
-               pwriter.print("In the service() method<br>");
+               pwriter.print("welcome to servlet interface<br>");
                pwriter.print("</body>");
                pwriter.print("</html>");
            }

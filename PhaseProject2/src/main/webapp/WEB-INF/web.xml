@@ -1,0 +1,96 @@
+<!-- <!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UserLogin</servlet-name>
+  	<display-name>UserLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.Servlets.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserRegistration</servlet-name>
+  	<display-name>UserRegistration</display-name>
+  	<description></description>
+  	<servlet-class>com.Servlets.UserRegistration</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>InsertFlight</servlet-name>
+  	<display-name>InsertFlight</display-name>
+  	<description></description>
+  	<servlet-class>com.Servlets.InsertFlight</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ForgotPassword</servlet-name>
+  	<display-name>ForgotPassword</display-name>
+  	<description></description>
+  	<servlet-class>com.Servlets.ForgotPassword</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FlightList</servlet-name>
+  	<display-name>FlightList</display-name>
+  	<description></description>
+  	<servlet-class>com.Servlets.FlightList</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<display-name>AdminLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.Servlets.AdminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserLogin</servlet-name>
+  	<url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserRegistration</servlet-name>
+  	<url-pattern>/UserRegistration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InsertFlight</servlet-name>
+  	<url-pattern>/InsertFlight</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ForgotPassword</servlet-name>
+  	<url-pattern>/ForgotPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FlightList</servlet-name>
+  	<url-pattern>/FlightList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+</web-app>
+ -->
+ <!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<display-name>AdminLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.Servlets.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FlightList</servlet-name>
+  	<display-name>FlightList</display-name>
+  	<description></description>
+  	<servlet-class>com.Servlets.FlightList</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FlightList</servlet-name>
+  	<url-pattern>/FlightList</url-pattern>
+  </servlet-mapping>
+</web-app>
+ 
